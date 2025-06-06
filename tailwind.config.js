@@ -2,9 +2,12 @@
 export default {
   content: [
     "./index.html",
-"./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
+  corePlugins: {
+    preflight: true,
+  },
   theme: {
     extend: {
       colors: {
@@ -59,14 +62,22 @@ export default {
         'countdown': {
           '0%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.1)' },
-          '100%': { transform: 'scale(1)' }
+'100%': { transform: 'scale(1)' }
         },
         'progress-ring': {
-          '0%': { stroke-dashoffset: '0' },
-          '100%': { stroke-dashoffset: 'var(--dash-offset)' }
+          '0%': { 'stroke-dashoffset': '0' },
+          '100%': { 'stroke-dashoffset': 'var(--dash-offset)' }
         }
       }
     },
   },
-  plugins: [],
+  plugins: [
+    function({ addUtilities }) {
+      addUtilities({
+        '.safe-css-vars': {
+          '--safe-fallback': '0',
+        }
+      })
+    }
+  ],
 }
