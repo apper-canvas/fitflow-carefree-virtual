@@ -2,7 +2,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+"./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
   theme: {
@@ -45,6 +45,26 @@ export default {
       borderRadius: {
         'xl': '0.75rem',
         '2xl': '1rem'
+      },
+      animation: {
+        'timer-pulse': 'timer-pulse 1s ease-in-out infinite',
+        'countdown': 'countdown 1s linear infinite',
+        'progress-ring': 'progress-ring 0.3s ease-out'
+      },
+      keyframes: {
+        'timer-pulse': {
+          '0%, 100%': { transform: 'scale(1)', opacity: '1' },
+          '50%': { transform: 'scale(1.05)', opacity: '0.8' }
+        },
+        'countdown': {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.1)' },
+          '100%': { transform: 'scale(1)' }
+        },
+        'progress-ring': {
+          '0%': { stroke-dashoffset: '0' },
+          '100%': { stroke-dashoffset: 'var(--dash-offset)' }
+        }
       }
     },
   },

@@ -46,6 +46,25 @@ const workoutService = {
     }
     const deleted = workouts.splice(index, 1)[0]
     return { ...deleted }
+},
+
+  // Timer integration methods
+  async startRestTimer(duration = 60) {
+    await delay(100)
+    return {
+      duration,
+      startedAt: Date.now(),
+      status: 'running'
+    }
+  },
+
+  async pauseRestTimer(timerId) {
+    await delay(100)
+    return {
+      timerId,
+      pausedAt: Date.now(),
+      status: 'paused'
+    }
   }
 }
 
