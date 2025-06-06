@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Push-ups",
+    "category": "Chest",
+    "muscleGroups": ["Chest", "Triceps", "Shoulders"],
+    "sets": [],
+    "restTime": 60
+  },
+  {
+    "id": "2",
+    "name": "Bench Press",
+    "category": "Chest",
+    "muscleGroups": ["Chest", "Triceps", "Shoulders"],
+    "sets": [],
+    "restTime": 120
+  },
+  {
+    "id": "3",
+    "name": "Pull-ups",
+    "category": "Back",
+    "muscleGroups": ["Back", "Biceps"],
+    "sets": [],
+    "restTime": 90
+  },
+  {
+    "id": "4",
+    "name": "Squats",
+    "category": "Legs",
+    "muscleGroups": ["Quadriceps", "Glutes"],
+    "sets": [],
+    "restTime": 90
+  },
+  {
+    "id": "5",
+    "name": "Deadlifts",
+    "category": "Legs",
+    "muscleGroups": ["Hamstrings", "Glutes", "Back"],
+    "sets": [],
+    "restTime": 120
+  },
+  {
+    "id": "6",
+    "name": "Plank",
+    "category": "Core",
+    "muscleGroups": ["Core", "Shoulders"],
+    "sets": [],
+    "restTime": 30
+  },
+  {
+    "id": "7",
+    "name": "Shoulder Press",
+    "category": "Shoulders",
+    "muscleGroups": ["Shoulders", "Triceps"],
+    "sets": [],
+    "restTime": 75
+  },
+  {
+    "id": "8",
+    "name": "Running",
+    "category": "Cardio",
+    "muscleGroups": ["Legs", "Cardio"],
+    "sets": [],
+    "restTime": 0
+  },
+  {
+    "id": "9",
+    "name": "Burpees",
+    "category": "Cardio",
+    "muscleGroups": ["Full Body"],
+    "sets": [],
+    "restTime": 60
+  },
+  {
+    "id": "10",
+    "name": "Bicep Curls",
+    "category": "Arms",
+    "muscleGroups": ["Biceps"],
+    "sets": [],
+    "restTime": 60
+  },
+  {
+    "id": "11",
+    "name": "Yoga Flow",
+    "category": "Flexibility",
+    "muscleGroups": ["Full Body"],
+    "sets": [],
+    "restTime": 0
+  },
+  {
+    "id": "12",
+    "name": "Lunges",
+    "category": "Legs",
+    "muscleGroups": ["Quadriceps", "Glutes", "Calves"],
+    "sets": [],
+    "restTime": 60
+  },
+  {
+    "id": "13",
+    "name": "Mountain Climbers",
+    "category": "Cardio",
+    "muscleGroups": ["Core", "Cardio"],
+    "sets": [],
+    "restTime": 45
+  },
+  {
+    "id": "14",
+    "name": "Tricep Dips",
+    "category": "Arms",
+    "muscleGroups": ["Triceps", "Shoulders"],
+    "sets": [],
+    "restTime": 60
+  },
+  {
+    "id": "15",
+    "name": "Russian Twists",
+    "category": "Core",
+    "muscleGroups": ["Core", "Obliques"],
+    "sets": [],
+    "restTime": 45
+  }
+]

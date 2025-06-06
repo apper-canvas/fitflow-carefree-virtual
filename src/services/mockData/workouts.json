@@ -1,0 +1,243 @@
+[
+  {
+    "id": "1",
+    "name": "Upper Body Strength",
+    "exercises": [
+      {
+        "id": "1",
+        "name": "Push-ups",
+        "category": "Chest",
+        "muscleGroups": ["Chest", "Triceps", "Shoulders"],
+        "sets": [
+          {"reps": 15, "weight": 0, "duration": 0, "completed": true},
+          {"reps": 12, "weight": 0, "duration": 0, "completed": true},
+          {"reps": 10, "weight": 0, "duration": 0, "completed": false}
+        ],
+        "restTime": 60
+      },
+      {
+        "id": "3",
+        "name": "Pull-ups",
+        "category": "Back",
+        "muscleGroups": ["Back", "Biceps"],
+        "sets": [
+          {"reps": 8, "weight": 0, "duration": 0, "completed": true},
+          {"reps": 6, "weight": 0, "duration": 0, "completed": false}
+        ],
+        "restTime": 90
+      }
+    ],
+    "scheduledDate": "2024-01-15",
+    "completedDate": "2024-01-15",
+    "duration": 45,
+    "notes": "Great session, felt strong today"
+  },
+  {
+    "id": "2",
+    "name": "Cardio Blast",
+    "exercises": [
+      {
+        "id": "8",
+        "name": "Running",
+        "category": "Cardio",
+        "muscleGroups": ["Legs", "Cardio"],
+        "sets": [
+          {"reps": 0, "weight": 0, "duration": 1800, "completed": true}
+        ],
+        "restTime": 0
+      },
+      {
+        "id": "9",
+        "name": "Burpees",
+        "category": "Cardio",
+        "muscleGroups": ["Full Body"],
+        "sets": [
+          {"reps": 20, "weight": 0, "duration": 0, "completed": true},
+          {"reps": 15, "weight": 0, "duration": 0, "completed": true}
+        ],
+        "restTime": 60
+      }
+    ],
+    "scheduledDate": "2024-01-16",
+    "completedDate": null,
+    "duration": 0,
+    "notes": ""
+  },
+  {
+    "id": "3",
+    "name": "Lower Body Power",
+    "exercises": [
+      {
+        "id": "4",
+        "name": "Squats",
+        "category": "Legs",
+        "muscleGroups": ["Quadriceps", "Glutes"],
+        "sets": [
+          {"reps": 15, "weight": 60, "duration": 0, "completed": false},
+          {"reps": 12, "weight": 70, "duration": 0, "completed": false}
+        ],
+        "restTime": 90
+      }
+    ],
+    "scheduledDate": "2024-01-17",
+    "completedDate": null,
+    "duration": 0,
+    "notes": ""
+  },
+  {
+    "id": "4",
+    "name": "Core Crusher",
+    "exercises": [
+      {
+        "id": "6",
+        "name": "Plank",
+        "category": "Core",
+        "muscleGroups": ["Core", "Shoulders"],
+        "sets": [
+          {"reps": 0, "weight": 0, "duration": 60, "completed": true},
+          {"reps": 0, "weight": 0, "duration": 45, "completed": true}
+        ],
+        "restTime": 30
+      }
+    ],
+    "scheduledDate": "2024-01-18",
+    "completedDate": "2024-01-18",
+    "duration": 25,
+    "notes": "Short but effective"
+  },
+  {
+    "id": "5",
+    "name": "Full Body Circuit",
+    "exercises": [
+      {
+        "id": "1",
+        "name": "Push-ups",
+        "category": "Chest",
+        "muscleGroups": ["Chest", "Triceps", "Shoulders"],
+        "sets": [
+          {"reps": 12, "weight": 0, "duration": 0, "completed": false}
+        ],
+        "restTime": 45
+      },
+      {
+        "id": "4",
+        "name": "Squats",
+        "category": "Legs",
+        "muscleGroups": ["Quadriceps", "Glutes"],
+        "sets": [
+          {"reps": 15, "weight": 0, "duration": 0, "completed": false}
+        ],
+        "restTime": 45
+      }
+    ],
+    "scheduledDate": "2024-01-19",
+    "completedDate": null,
+    "duration": 0,
+    "notes": ""
+  },
+  {
+    "id": "6",
+    "name": "HIIT Training",
+    "exercises": [
+      {
+        "id": "9",
+        "name": "Burpees",
+        "category": "Cardio",
+        "muscleGroups": ["Full Body"],
+        "sets": [
+          {"reps": 10, "weight": 0, "duration": 0, "completed": true},
+          {"reps": 10, "weight": 0, "duration": 0, "completed": true},
+          {"reps": 8, "weight": 0, "duration": 0, "completed": false}
+        ],
+        "restTime": 30
+      }
+    ],
+    "scheduledDate": "2024-01-20",
+    "completedDate": "2024-01-20",
+    "duration": 20,
+    "notes": "High intensity, great burn"
+  },
+  {
+    "id": "7",
+    "name": "Strength & Power",
+    "exercises": [
+      {
+        "id": "2",
+        "name": "Bench Press",
+        "category": "Chest",
+        "muscleGroups": ["Chest", "Triceps", "Shoulders"],
+        "sets": [
+          {"reps": 8, "weight": 80, "duration": 0, "completed": false},
+          {"reps": 6, "weight": 85, "duration": 0, "completed": false}
+        ],
+        "restTime": 120
+      }
+    ],
+    "scheduledDate": "2024-01-21",
+    "completedDate": null,
+    "duration": 0,
+    "notes": ""
+  },
+  {
+    "id": "8",
+    "name": "Active Recovery",
+    "exercises": [
+      {
+        "id": "11",
+        "name": "Yoga Flow",
+        "category": "Flexibility",
+        "muscleGroups": ["Full Body"],
+        "sets": [
+          {"reps": 0, "weight": 0, "duration": 900, "completed": false}
+        ],
+        "restTime": 0
+      }
+    ],
+    "scheduledDate": "2024-01-22",
+    "completedDate": null,
+    "duration": 0,
+    "notes": ""
+  },
+  {
+    "id": "9",
+    "name": "Arms & Shoulders",
+    "exercises": [
+      {
+        "id": "7",
+        "name": "Shoulder Press",
+        "category": "Shoulders",
+        "muscleGroups": ["Shoulders", "Triceps"],
+        "sets": [
+          {"reps": 12, "weight": 25, "duration": 0, "completed": false},
+          {"reps": 10, "weight": 30, "duration": 0, "completed": false}
+        ],
+        "restTime": 75
+      }
+    ],
+    "scheduledDate": "2024-01-23",
+    "completedDate": null,
+    "duration": 0,
+    "notes": ""
+  },
+  {
+    "id": "10",
+    "name": "Leg Day Intensity",
+    "exercises": [
+      {
+        "id": "5",
+        "name": "Deadlifts",
+        "category": "Legs",
+        "muscleGroups": ["Hamstrings", "Glutes", "Back"],
+        "sets": [
+          {"reps": 8, "weight": 100, "duration": 0, "completed": false},
+          {"reps": 6, "weight": 110, "duration": 0, "completed": false}
+        ],
+        "restTime": 120
+      }
+    ],
+    "scheduledDate": "2024-01-24",
+    "completedDate": null,
+    "duration": 0,
+    "notes": ""
+  }
+]
